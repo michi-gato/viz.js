@@ -28,3 +28,6 @@ rsvp -> no;
 e=box,style=filled,color=".7 .3 1.0"];
 life_goal2 -> life_goal3
 }
+
+** see eog diag.png for sample map
+** nano graphviz_CGA.txt has original code 
