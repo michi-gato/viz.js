@@ -37,3 +37,6 @@ To build from source, you will need to [install the Emscripten SDK](http://kripk
 To download the sources and build everything:
 
     make
+
+## 2018-04-01 Personal Notes
+Graphviz for ubuntu, according to https://newstudyclub.blogspot.com/2017/02/how-to-install-and-use-graphviz-on.html
