@@ -10,7 +10,8 @@ date of contact
 contactInfo -> followUp [label="follow Up w/in 48 hours"];
 followUp -> meeting -> track [label="track engagement"];
 followUp -> training -> track [label="track engagement"];
-followUp -> 1:1 -> develop [label="development plan"];
+followUp -> 1:1 -> develop [label="development plan
+build relationship / leadership profile"];
 track -> attend [label="Come to meeting?"];
 track -> respondTxt [label="Responded to text/call?"];
 track -> rsvp [label="RSVP'd to attend?"];
