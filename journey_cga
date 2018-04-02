@@ -1,0 +1,29 @@
+digraph G {
+start_here [label="Initial Contact
+(start here)"];
+start_here -> contactInfo [label="gather basic contact info
+name
+phone #
+date of contact
+(address)
+(email)"];
+contactInfo -> followUp [label="follow Up w/in 48 hours"];
+followUp -> meeting -> track [label="track engagement"];
+followUp -> training -> track [label="track engagement"];
+followUp -> 1:1 -> develop [label="development plan"];
+track -> attend [label="Come to meeting?"];
+track -> respondTxt [label="Responded to text/call?"];
+track -> rsvp [label="RSVP'd to attend?"];
+attend -> yes [label="yes 
+(date of confirmation)"];
+attend -> no [label="no 
+(date of confirmation)"];
+respondTxt -> yes;
+Yes -> text;
+Yes -> call;
+respondTxt -> no;
+rsvp -> yesl
+rsvp -> no;
+e=box,style=filled,color=".7 .3 1.0"];
+life_goal2 -> life_goal3
+}
